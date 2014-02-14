@@ -40,7 +40,7 @@ fi
 
 ###### Change Monitoring & Deployment #######
 
-DEPLOY_CMD="./scripts/deploy.sh $VERBOSE $STANDARD_OUTPUT \"$DIR\" 2>&1"
+DEPLOY_CMD="$SCRIPT_DIR/deploy.sh $VERBOSE $STANDARD_OUTPUT \"$DIR\" 2>&1"
 
 displayMessage "Watching '$DIR' for changes (`date`)..." "YES" "$X_LEFT" "$Y_STATUS" 
 displayMessage "Performing initial sync..." "YES" "$X_LEFT" "$Y_STATUS" 

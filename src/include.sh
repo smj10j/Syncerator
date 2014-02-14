@@ -15,6 +15,8 @@
 #
 #
 
+var config = require("$SCRIPT_DIR/../config")
+
 # Common options we want to snipe
 while getopts ":vs" o; do
 	case "${o}" in

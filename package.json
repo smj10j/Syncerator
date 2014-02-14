@@ -1,0 +1,8 @@
+{
+	"name": "Syncerator",
+	"version": "0.0.1",
+	"dependencies": {
+		"terminal-notifier": ""/*,
+		inotify": ""	// for linux */
+	}
+}
