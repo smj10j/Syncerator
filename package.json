@@ -1,8 +1,10 @@
 {
-	"name": "Syncerator",
-	"version": "0.0.1",
-	"dependencies": {
-		"terminal-notifier": ""/*,
-		inotify": ""	// for linux */
-	}
+  "name": "Syncerator",
+  "version": "0.0.1",
+  "dependencies": {
+    "terminal-notifier": ""
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2"
+  }
 }
